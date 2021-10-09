@@ -4,14 +4,14 @@ This script will help install any, or all, of Docker-CE, Docker-Compose, NGinX P
 ## Reason for Making this Script
 I got tired of running individual commands all the time, so I created some scripts to make this very easy. 
 
-1. Clone the repo ( `git clone https://github.com/bmcgonag/docker_installs.git` ), or copy / paste the code from the `install_docker_nproxyman.sh` file into a file on your server. 
+1. Clone the repo ( `git clone https://github.com/Monster-ZeroX/docker_installs.git` ), or copy / paste the code from the `install_docker_nproxyman.sh` file into a file on your server. 
 2. Change the permissions of the .sh file to make it executable with.
 
-`chmod +x <your-new-file>.sh`
+`chmod +x nproxyman.sh`
 
 3. Run the installer with
 
-`./<your-new-file>.sh`
+`./nproxyman.sh`
 
 ## Prompts from the script:
 First, you'll be prompted to select the number for your OS / Distro.  Currently I support CentOS 7, Debian 10, Ubuntu 18.04, and Ubuntu 20.04. 
